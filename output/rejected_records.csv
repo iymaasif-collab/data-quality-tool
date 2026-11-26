@@ -1,0 +1,27 @@
+order_id,customer_id,order_date,product,quantity,price,reject_reason
+ORD-0047,,2025-04-20,Webcam,2.0,90.0,missing customer_id
+ORD-0167,,2025-10-11,Keyboard,3.0,80.0,missing customer_id
+ORD-0027,CUST-011,,Webcam,5.0,90.0,invalid order_date
+ORD-0150,CUST-020,2025-12-17,Laptop,-1.0,1200.0,quantity must be > 0
+ORD-0090,CUST-002,2025-04-02,Mouse,3.0,-50.0,price must be > 0
+ORD-0072,,2025-02-21,Headset,5.0,150.0,missing customer_id
+ORD-0114,,2025-05-06,Laptop,5.0,1200.0,missing customer_id
+ORD-0200,CUST-018,2025-10-23,Laptop,0.0,1200.0,quantity must be > 0
+ORD-0023,CUST-017,2025-03-13,Monitor,,300.0,missing quantity; quantity must be whole number
+ORD-0163,CUST-027,2025-09-08,Monitor,-1.0,300.0,quantity must be > 0
+ORD-0042,CUST-034,,Mouse,2.0,25.0,invalid order_date
+ORD-0133,,2025-08-12,Monitor,1.0,300.0,missing customer_id
+ORD-0112,CUST-040,2025-06-21,Headset,-1.0,150.0,quantity must be > 0
+ORD-0085,CUST-003,,Headset,5.0,150.0,invalid order_date
+ORD-0010,CUST-039,2025-05-16,Keyboard,,80.0,missing quantity; quantity must be whole number
+ORD-0106,CUST-025,,Mouse,2.0,25.0,invalid order_date
+ORD-0172,CUST-038,2025-09-26,Keyboard,3.0,-50.0,price must be > 0
+ORD-0083,CUST-029,2025-10-10,Webcam,4.0,-50.0,price must be > 0
+ORD-0086,CUST-028,2025-03-07,Monitor,3.0,0.0,price must be > 0
+ORD-0178,CUST-022,,Mouse,3.0,25.0,invalid order_date
+ORD-0126,CUST-009,2025-03-19,Laptop,-2.0,1200.0,quantity must be > 0
+ORD-0117,CUST-001,2025-02-24,Monitor,,300.0,missing quantity; quantity must be whole number
+ORD-0121,,2025-09-16,Mouse,5.0,25.0,missing customer_id
+ORD-0024,CUST-017,2025-10-27,Headset,-1.0,150.0,quantity must be > 0
+ORD-0105,CUST-019,2025-10-11,Mouse,2.0,0.0,price must be > 0
+ORD-0141,CUST-031,2025-01-10,Laptop,,1200.0,missing quantity; quantity must be whole number

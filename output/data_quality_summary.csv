@@ -1,0 +1,5 @@
+metric,value
+rows_loaded,210
+duplicates_removed,10
+rows_rejected,26
+rows_clean,174
